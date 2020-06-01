@@ -1,0 +1,62 @@
+#slides{
+    position: relative;
+    margin-left: 30px;
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:60vh;
+    max-width: 95%;
+    max-height: 60vh;
+    margin-top: 50px;
+    text-align: center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    font-family: Snell Roundhand, cursive;
+    font-size: 100px;
+    font-weight:bold;
+text-align: center;
+    margin:0 auto;
+    color: white;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+
+
+
+.slide:nth-of-type(1){
+  background:url("../images/index/33.jpg") no-repeat ;
+    position: center;;
+
+}
+.slide:nth-of-type(2){
+background:url(../images/index/1.jpg) no-repeat;
+    position: center;
+}
+.slide:nth-of-type(3){
+background:url("https://1dc3f33f6d-3.optimicdn.com/gaultmillau.com/photos/3e569bf58882235025fc6710e45d1738d1356153/detail.jpg?1512942224") no-repeat;
+    position: center;}
+.slide:nth-of-type(4){
+background:url("https://escape.almajidtravel.com/public/uploads/packages/Tbilisi_banner_for_website1.jpg") no-repeat;
+    position: center;}
